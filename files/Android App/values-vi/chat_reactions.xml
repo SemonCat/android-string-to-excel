@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="chat_notification_free_reaction_liked">Có người đã thích tin nhắn của bạn</string>
+    <string name="reaction_chat_desc">Chạm Vào Hai Lần để Thích</string>
+    <string name="reaction_liked_text">Đã thích tin nhắn của bạn</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="chat_notification_free_reaction_liked">May nag-like sa iyong mensahe</string>
+    <string name="reaction_chat_desc">I-double Tap para I-like</string>
+    <string name="reaction_liked_text">Ni-like ang iyong mensahe</string>
+</resources>

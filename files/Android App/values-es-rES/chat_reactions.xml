@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="chat_notification_free_reaction_liked">A alguien le gustó tu mensaje</string>
+    <string name="reaction_chat_desc">Toca dos veces para dar Me gusta</string>
+    <string name="reaction_liked_text">Le(s) gustó tu mensaje</string>
+</resources>

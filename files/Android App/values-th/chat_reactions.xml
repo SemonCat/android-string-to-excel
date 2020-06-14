@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="chat_notification_free_reaction_liked">มีคนถูกใจข้อความของคุณ</string>
+    <string name="reaction_chat_desc">แตะสองครั้งเพื่อถูกใจ</string>
+    <string name="reaction_liked_text">ถูกใจข้อความของคุณ</string>
+</resources>

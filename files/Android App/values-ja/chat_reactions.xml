@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="chat_notification_free_reaction_liked">誰かがあなたのメッセージに「いいね」しました</string>
+    <string name="reaction_chat_desc">ダブルタップで「いいね」します</string>
+    <string name="reaction_liked_text">あなたのメッセージに「いいね」しました</string>
+</resources>

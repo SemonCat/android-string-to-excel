@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="chat_notification_free_reaction_liked">কেউ একজন আপনার বার্তা পছন্দ করেছেন</string>
+    <string name="reaction_chat_desc">পছন্দ করতে দুইবার ট্যাপ করুন</string>
+    <string name="reaction_liked_text">আপনার বার্তা পছন্দ করেছেন</string>
+</resources>

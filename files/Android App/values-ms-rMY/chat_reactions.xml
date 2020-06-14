@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="chat_notification_free_reaction_liked">Sesorang menyukai mesej anda</string>
+    <string name="reaction_chat_desc">Ketik Dua Kali untuk Suka</string>
+    <string name="reaction_liked_text">Menyukai mesej anda</string>
+</resources>
