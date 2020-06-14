@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <string name="chat_notification_free_reaction_liked">Someone liked your message</string>
-    <string name="reaction_chat_desc">Double Tap to Like</string>
-    <string name="reaction_liked_text">Liked your message</string>
-</resources>

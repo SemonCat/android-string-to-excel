@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <string name="chat_notification_free_reaction_liked">किसी ने आपका संदेश पसंद किया</string>
-    <string name="reaction_chat_desc">पसंद करने के लिए डबल टैप</string>
-    <string name="reaction_liked_text">आपका संदेश पसंद किया</string>
-</resources>

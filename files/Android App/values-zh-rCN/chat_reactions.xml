@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <string name="chat_notification_free_reaction_liked">有人喜欢你发送的信息</string>
-    <string name="reaction_chat_desc">双击喜欢</string>
-    <string name="reaction_liked_text">喜欢你发送的信息</string>
-</resources>

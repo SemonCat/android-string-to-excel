@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <string name="chat_notification_free_reaction_liked">누군가 회원님의 메시지를 좋아합니다</string>
-    <string name="reaction_chat_desc">두 번 탭하여 좋아요 표시</string>
-    <string name="reaction_liked_text">회원님의 메시지를 좋아합니다</string>
-</resources>

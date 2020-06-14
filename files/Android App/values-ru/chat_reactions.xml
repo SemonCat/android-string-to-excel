@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <string name="chat_notification_free_reaction_liked">Кому-то понравилось ваше сообщение</string>
-    <string name="reaction_chat_desc">Дважды коснитесь, чтобы поставить лайк</string>
-    <string name="reaction_liked_text">Понравилось ваше сообщение</string>
-</resources>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <string name="chat_notification_free_reaction_liked">Alguém curtiu sua mensagem</string>
-    <string name="reaction_chat_desc">Toque duas vezes para curtir</string>
-    <string name="reaction_liked_text">Curtiu sua mensagem</string>
-</resources>
