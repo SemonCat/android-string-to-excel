@@ -5,6 +5,19 @@ window.onload = function () {
   resultText.value = `your reuslt will be here`;
 
   document.getElementById("xmlfile").addEventListener("change", function (evt) {
+    var notyfWarning = new Notyf({
+      duration: 3000,
+      types: [
+        {
+          type: "warning",
+          background: "orange",
+        },
+      ],
+    });
+    notyfWarning.open({
+      type: "warning",
+      message: "processing...",
+    });
     var files = evt.target.files;
     for (var i = 0; i < files.length; i++) {
       handleFile(files[i]);
@@ -96,6 +109,14 @@ async function processFiles(zip, fileList) {
   resultText.value = `${normalFormat}\n\n\n\n\n${iosFormat}`;
 
   resultText.select();
+
+  var notyf = new Notyf({
+    duration: 5000,
+  });
+  notyf.success("cover done. click Cut to clipboard to save your result.");
+
+  document.getElementById("xmlfile").value = "";
+
   //navigator.clipboard.writeText(`${normalFormat}\n\n\n\n\n${iosFormat}`);
 
   // fs.writeFileSync("output.txt", `${normalFormat}\n\n\n\n\n${iosFormat}`);
@@ -119,7 +140,7 @@ function toExcel(result) {
 
   languageRow = languages.join("\t");
 
-  excel += "\t" + languageRow + "\n";
+  excel += "string name\t" + languageRow + "\n";
 
   for (key of keys) {
     excel += key + "\t";
@@ -155,7 +176,7 @@ function toIOS(result) {
 
   languageRow = languages.join("\t");
 
-  excel += languageRow + "\n";
+  excel += "\t" + languageRow + "\nios format\t";
 
   for (lang of languages) {
     var text = [];
