@@ -183,7 +183,9 @@ function toIOS(result) {
     for (key of keys) {
       value = result[key][lang];
 
-      text.push(`""${key}""=""${value.toString()}""`);
+      // ios use en as key
+      iosKey = result[key]["values"];
+      text.push(`""${iosKey}""=""${value.toString()}"";`);
     }
 
     excel += `"${text.join("\r")}"` + "\t";
