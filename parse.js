@@ -81,10 +81,19 @@ async function processFiles(zip, fileList) {
       textNodeName: "$t",
     });
 
+    console.log("fastResult");
+    console.log(fastResult);
+
     resources = fastResult.resources.string;
 
     console.log(resources);
 
+
+    if (!Array.isArray(resources)) {
+      tmpRes = resources
+      resources = [tmpRes]
+    }
+    
     for (res of resources) {
       newRes = result[res.name];
 
